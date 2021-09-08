@@ -39,6 +39,14 @@ const issuerKeys = [
     x: "wCeT9rdLYTpOK52OK0-oRbwDxbljJdNiDuxPsPt_1go",
     y: "IgFPi1OrHtJWJGwPMvlueeHmULUKEpScgpQtoHNjX-Q",
   },
+  {
+    id: "ca.bc-001",
+    iss: "https://smarthealthcard.phsa.ca/v1/issuer",
+    kid: "XCqxdhhS7SWlPqihaUXovM_FjU65WeoBFGc_ppent0Q",
+    alg: "ES256", kty: "EC", crv: "P-256", use: "sig",
+    x: "xscSbZemoTx1qFzFo-j9VSnvAXdv9K-3DchzJvNnwrY",
+    y: "jA5uS5bz8R2nxf_TU-0ZmXq6CKWZhAG1Y4icAx8a9CA",
+  },
 ];
 
 module.exports = {
