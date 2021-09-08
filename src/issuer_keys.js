@@ -7,6 +7,14 @@ const issuerKeys = [
     x: "XSxuwW_VI_s6lAw6LAlL8N7REGzQd_zXeIVDHP_j_Do",
     y: "88-aI4WAEl4YmUpew40a9vq_w5OcFvsuaKMxJRLRLL0",
   },
+  {    
+    id: "ca.bc-001",
+    iss: "https://smarthealthcard.phsa.ca/v1/issuer",
+    kid: "XCqxdhhS7SWlPqihaUXovM_FjU65WeoBFGc_ppent0Q",
+    alg: "ES256", kty: "EC", crv: "P-256", use: "sig",
+    x: "xscSbZemoTx1qFzFo-j9VSnvAXdv9K-3DchzJvNnwrY",
+    y: "jA5uS5bz8R2nxf_TU-0ZmXq6CKWZhAG1Y4icAx8a9CA"
+  },
   {
     id: "us.ca-001",
     iss: "https://myvaccinerecord.cdph.ca.gov/creds",
